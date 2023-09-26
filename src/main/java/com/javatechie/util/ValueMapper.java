@@ -40,6 +40,6 @@ public class ValueMapper {
         } catch (JsonProcessingException e) {
             e.printStackTrace();
         }
-        return "";
+        return null;
     }
 }
